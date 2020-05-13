@@ -250,11 +250,16 @@ img {
   padding-left: 0;
 }
 .home .content-destination {
-  width: 75%;
-  margin: 0 auto 30px;
+  font-weight: bold;
+  width: 100%;
+  margin: 0;
+  padding: 0 8% 2%;
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+.home .content-destination .destinationPick {
+  padding: 0 6%;
 }
 .home .content-pick {
   padding-top: 30px;
@@ -265,4 +270,21 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home #contentPick {
+  margin: 0 7%;
+  font-weight: bold;
+}
+.home #contentPick .btn {
+  border-radius: 10px;
+  margin: 4%;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  background-color: teal;
+  padding: 3%;
+}
+.home #contentPick .btn:hover {
+  color: blue;
+  background-color: aqua;
 }
